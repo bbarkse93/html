@@ -85,6 +85,7 @@
 
 /* 이력서 작성 */
 
+
 .resume_profil_image {
     width: auto;
     /* 너비 강제 조절 */
@@ -108,4 +109,31 @@
 .image {
     height: 230px;
     width: 230px;
+}
+
+/* 이벤트 배너 페이지 */
+.event-title {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: 720px;
+}
+
+.event-image-box {
+    margin-top: 20px;
+    margin-left: 857px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.event-banner {
+    width: 900px;
+    height: 130px;
+    border-radius: 25px;
 }
